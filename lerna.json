@@ -1,0 +1,15 @@
+{
+  "packages": [
+    "packages/*",
+    "apps/*"
+  ],
+  "npmClient": "yarn",
+    "useWorkspaces": true,
+    "command": {
+        "publish": {
+            "ignoreChanges": ["*.md", "**/__tests__/**", "**/typings/**"]
+        },
+        "bootstrap": {}
+  },
+  "version": "0.0.0"
+}
